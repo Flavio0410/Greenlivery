@@ -1,6 +1,4 @@
-![](https://github.com/Flavio0410/Greenlivery/blob/main/Greenlivery%20(2000%20%C3%97%20500%20px)%20(1700%20%C3%97%20400%20px)%20(500%20%C3%97%20400%20px)%20(500%20%C3%97%20200%20px).gif)
-#banner
-<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Greenlivery%20(2000%20%C3%97%20500%20px)%20(1700%20%C3%97%20400%20px)%20(500%20%C3%97%20400%20px)%20(500%20%C3%97%20200%20px).gif">
+![](https://github.com/Flavio0410/Greenlivery/blob/main/bansvg.svg)
 
 # 🌱Greenlivery
 
