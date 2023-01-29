@@ -12,7 +12,7 @@ Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery
 
 
 ## 📷Screenshots
-<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/screen_home.jpg" width="100" height="300">
+<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/screen_home.jpg" width="200" height="300">
 
 
 ## Feedback
