@@ -1,4 +1,6 @@
 ![](https://github.com/Flavio0410/Greenlivery/blob/main/banner.gif | width=700)
+#banner
+<img src="https://github.com/Flavio0410/Greenlivery/blob/main/banner.gif" width="300">
 
 # 🌱Greenlivery
 
