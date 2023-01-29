@@ -1,4 +1,4 @@
-<img src="https://github.com/Flavio0410/Greenlivery/blob/main/banner.gif">
+![](https://github.com/Flavio0410/Greenlivery/blob/main/banner.gif)
 
 # 🌱Greenlivery
 
@@ -11,7 +11,7 @@ Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 
-## Screenshots
+## 📷Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
@@ -21,6 +21,6 @@ Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery
 If you have any feedback, please reach out to us at gezzi1958690@studenti.uniroma1.it
 
 
-## License
+## 📖License
 
 [MIT](https://choosealicense.com/licenses/mit/)
