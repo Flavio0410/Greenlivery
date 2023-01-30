@@ -6,6 +6,11 @@
 \usepackage{tcolorbox}
 \tcbuselibrary{theorems}
 
+\newenvironment{myminipage}[1]{\minipage{#1} 
+ \captionsetup{width=\textwidth, name=Fig., labelfont={it,bf}}
+ }{\endminipage} 
+
+
 
 \newtcbtheorem[no counter]{need}{Need}%
 { 
@@ -162,61 +167,57 @@ Abbiamo riscontrato che la maggior parte degli utenti(\textit{oltre 72\%}) sareb
 
 \section{Storyboard} \par
 Le seguenti storyboard illustrano le principali task che sono state individuate:
-\vspace{1cm}
-\addcontentsline{toc}{subsection}{\numberline{3.1} Effettuare un ordine }
-\numberline{\fontsize{4mm}{1mm}\selectfont \textbf{3.1} \textbf{Effettuare un ordine}}
-\begin{center}
-    \includegraphics[scale=.3]{Data/StoryBoard/Effetuare_ordine.png}
-\end{center}
-\begin{itemize}
-    \item \textbf{Descrizione scenario:}
-    \item \textbf{Descrizione task:}
-\end{itemize}
-\addcontentsline{toc}{subsection}{\numberline{3.2} Usufruire dei servizi per avere una cosegna precisa}
-\numberline{\fontsize{4mm}{1mm}\selectfont \textbf{3.2} Usufruire dei servizi per avere una cosegna precisa}
-\begin{center}
-    \includegraphics[scale=.3]{Data/StoryBoard/risoluzione disguidi alla cosegna.png}
-\end{center}
-\addcontentsline{toc}{subsection}{\numberline{3.3} Fornire valutazione ristorante e pietanza}
-\numberline{\fontsize{4mm}{1mm}\selectfont \textbf{3.3} \textbf{Fornire valutazione ristorante e pietanza}}
 
-\begin{center}
-    \includegraphics[scale=.3]{Data/StoryBoard/Recensione_ristorante.png}
-\end{center}
+\begin{figure}[htpb]
 
-\begin{itemize}
-    \item \textbf{Descrizione scenario:}
-    \item \textbf{Descrizione task:}
-\end{itemize}
+\begin{myminipage}{0.40\textwidth}
+    \includegraphics[width=\textwidth]{Effetuare_ordine.png}
+    \caption[Prima figura]{Effettuare un ordine} \label{fig:1}
+\end{myminipage}
+\hspace{2cm}
+\begin{myminipage}{0.40\textwidth}
+    \includegraphics[width = \textwidth]{risoluzione disguidi alla cosegna.png}
+    \caption[Seconda figura]{Usufruire dei servizi per avere una consegna precisa}\label{fig:2}
+\end{myminipage}
+\begin{myminipage}{0.40\textwidth}
+    \includegraphics[width=\textwidth]{Recensioni.jpeg}
+    \caption[Terza figura]{Fornire valutazione ristorante e pietanza}\label{fig:3}
+\end{myminipage}
+\hspace{2cm}
+\begin{myminipage}{0.40\textwidth}
+    \includegraphics[width=\textwidth]{Filtro_calorie.jpeg}
+    \caption[Quarta figura]{Usufruire del segna-calorie se si segue una dieta}\label{fig:4}
+\end{myminipage}
+\end{figure}
 
-\addcontentsline{toc}{subsection}{\numberline{3.4} Usufruire del segna-calorie se si segue una dieta}
-\numberline{\fontsize{4mm}{1mm}\selectfont \textbf{3.4} \textbf{Usufruire del segna-calorie se si segue una dieta}}
-\begin{center}
-    \includegraphics[scale=.3]{Data/StoryBoard/Filtro_calorie.jpeg}
-\end{center}
-\begin{itemize}
-    \item \textbf{Descrizione scenario:}
-    \item \textbf{Descrizione task:}
-\end{itemize}
+
 
     
 \section{Prototipi}
-
-\vspace{1cm}
-    \addcontentsline{toc}{subsection}{\numberline{4.1}Stile adoperato}             
-    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.1 Stile adoperato}}
-\par Lo stile adoperato\vspace{1cm}
-    
-    \addcontentsline{toc}{subsection}{\numberline{4.2}Funzionamento}               
-    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.2 Funzionamento}}
-
+    Ciascun task è stato testo da un gruppo di 8/10 persone e l'approccio al prototyping è stato di tipo evolutivo. Ad ogni iterazione,vengono proposte modifiche al fine di migliorare il prototipo e risolvere i problemi evidenziati nella versione precedente.\par
+\begin{myminipage}{0.40\textwidth}
+    \addcontentsline{toc}{subsection}{\numberline{4.1}Versione 1}     
+    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.1 Versione 1}}
+    %scrivere qui
     \vspace{1cm}
     
-    \addcontentsline{toc}{subsection}{\numberline{4.3}Prototyping}                 
-    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.3 Prototyping}}
-
+    \addcontentsline{toc}{subsubsection}{\numberline{4.1.1}Versione 1 - Resoconto}
+    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.1.1 Versione 1 - Resoconto}}
+    %scrivere qui
+    \vspace{1cm}
+\end{myminipage}    
+\hspace{2cm}
+\begin{myminipage}{0.40\textwidth}
+    \addcontentsline{toc}{subsection}{\numberline{4.2}Versione 2}               
+    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.2 Versione 2 }}
+    %scrivere qui
     \vspace{1cm}
 
+    \addcontentsline{toc}{subsubsection}{\numberline{4.2.1}Versione 2 - Resoconto}
+    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.2.1 Versione 2 - Resoconto}}
+    %scrivere qui
+    \vspace{1cm}
+\end{myminipage}
 \section{UserTest}
 
 \vspace{1cm}
@@ -241,14 +242,30 @@ Le seguenti storyboard illustrano le principali task che sono state individuate:
 
 
 \section{Revisioni}
-
 Prendendo singolarmente le due revisioni effettuate durante il corso abbiamo riscontrato che:
-\begin{itemize}\item \textbf{Prima revisione:} A seguito della prima revisione, effettuata il 14 dicembre, abbiamo riscontrato le seguenti problematiche:
+
+\begin{minipage}{0,40\textwidth} 
+\begin{itemize}
+
+    \item \textbf{Prima revisione:} A seguito della prima revisione, effettuata il 14 dicembre, abbiamo riscontrato le seguenti problematiche:
     \begin{enumerate}
-        \item Alcuni storyboard non chiari, in particolare il terzo e il quarto,e nel secondo ci è stato detto a fronte della rivisione che non era gradito l'unione di due need nello stesso task.
+        \item Alcuni storyboard non chiari, in particolare il terzo e il quarto,e nel secondo ci è stato detto a fronte della revisione che non era gradito l'unione di due need nello stesso task.
     \end{enumerate}
-    \item\textbf{Seconda revisione:}
 \end{itemize}
+\end{minipage}
+\hspace{2cm}
+\begin{minipage}{0.40\textwidth}
+\begin{itemize}
+
+    \item\textbf{Seconda revisione:} A seguito della seconda revisione, effettuata il 20 gennaio, e stato presentato al docente il paper prototyping, le varie versioni del nostro prototipo, e in conclusione il prototipo, riscontrando le seguenti problematiche:
+    \begin{enumerate}
+        \item Alcune schermate della versione 1 sono state utilizzate, e migliorate nella versione successiva, non si e tenuta traccia tramite scheenshot di queste schermate;
+        \item In fine, ci è stato consigliato dal docente di effettuare l'expert avaluation visto il punto avanzato al quale è arrivato il nostro prototipo.
+
+    \end{enumerate}
+    
+    \end{itemize}
+\end{minipage} 
 
 
 
