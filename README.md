@@ -1,4 +1,4 @@
-<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/banner_readme.gif" width="1100" height="370">
+<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/banner_readme.gif" width="1100" height="360">
 
 # 🌱Greenlivery
 
@@ -13,6 +13,7 @@ Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery
 
 ## 📷Screenshots
 <img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/screen_home.jpg" width="202" height="362">
+<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/Change_KCal.gif" width="235" height="450">
 
 ## Color Reference
 
