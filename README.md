@@ -1,4 +1,4 @@
-<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/Last.gif" width="1200" height="390">
+<img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/banner_readme.gif" width="1200" height="390">
 
 # 🌱Greenlivery
 
