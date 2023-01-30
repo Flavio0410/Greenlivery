@@ -7,6 +7,10 @@ Project "Interazione Uomo Macchina" 2022/23, Sapienza Roma.
 
 - [📄Description](#description)
 - [📷Screenshot](#screenshot)
+  - [Select nutritional values](#select-nutritional-values)
+  - [Make order](#make-order)
+  - [Make order](#make-order)
+  - [Chat with rider](#chat-with-rider)
 - [🎨Color Reference](#color-reference)
 - [Feedback](#feedback)
 - [📖License](#license)
@@ -19,17 +23,17 @@ Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery
 
 ## 📷Screenshot
 
-### Select nutritional values:
+### Select nutritional values
 >
 ><img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/Change_KCal.gif" width="235" height="450">
 
 
-### Chat with rider:
+### Chat with rider
 >
 ><img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/Rider_chat.gif" width="235" height="450">
 
 
-### Make order:
+### Make order
 >
 ><img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/take_order.gif" width="235" height="450">
 
