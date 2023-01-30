@@ -5,13 +5,13 @@
 
 Project "Interazione Uomo Macchina" 2022/23, Sapienza Roma.
 
-- [Description](#description)
+- [📄Description](#description)
 - [📷Screenshot](#screenshot)
 - [🎨Color Reference](#color-reference)
 - [Feedback](#feedback)
 - [📖License](#license)
 
-## Description
+## 📄Description
 Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery options to its users. With its user-friendly interface, real-time GPS tracking, and option to choose environmentally conscious delivery methods, greenlivery aims to make deliveries convenient and sustainable. 
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
