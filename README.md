@@ -18,10 +18,9 @@ Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| Example Color | ![#268c3e](https://via.placeholder.com/10x10/268c3e/268c3e.png) #268c3e |
+| Example Color | ![#aabf7e](https://via.placeholder.com/10x10/aabf7e/aabf7e.png) #aabf7e |
+| Example Color | ![#39c06a](https://via.placeholder.com/10x10/39c06a/39c06a.png) #39c06a |
 
 ## Feedback
 
