@@ -11,7 +11,8 @@ Greenlivery is an UI kit in figma iPhone app that provides eco-friendly delivery
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 
-## 📷
+## 📷Screenshot
+###Select nutritional values
 <img src="https://github.com/Flavio0410/Greenlivery/blob/main/Data/Change_KCal.gif" width="235" height="450">
 
 ## Color Reference
