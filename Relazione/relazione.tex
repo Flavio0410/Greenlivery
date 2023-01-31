@@ -10,8 +10,6 @@
  \captionsetup{width=\textwidth, name=Fig., labelfont={it,bf}}
  }{\endminipage} 
 
-
-
 \newtcbtheorem[no counter]{need}{Need}%
 { 
   sharp corners,
@@ -24,9 +22,9 @@
 \begin{document}
 
 \begin{center}
-\includegraphics[width=\textwidth]{data/logocircle.png}
-\title{Relazione Greenlivery}
-\author{Flavio Gezzi, Nicola Cosentino, Luca Cataldo, Matteo Zacchino, Mario Dascalu}
+\includegraphics[width=\textwidth]{Data/logocircle.png}
+\title{Relazione greenLivery}
+\author{Flavio, Nicola, Luca, Matteo, Mario}
 \end{center}
 \renewcommand{\contentsname}{Indice}
 
@@ -34,7 +32,6 @@
 \tableofcontents
 
 \section{Inizio del progetto}\par
-
 Il topic del progetto dato dal professore, è la realizzazione di un servizio legato a cibo e alimentazione. Con particolare aree di interessi,come: \par
 \begin{itemize}
     \item \textbf{dieta}:gestione dieta per uno stile di vita sano, e.g., per motivi medici/altro, dieta per sportivi, gestione ricettari, diario della dieta \par
@@ -54,19 +51,17 @@ Il topic del progetto dato dal professore, è la realizzazione di un servizio le
     
     \addcontentsline{toc}{subsection}{\numberline{1.2}Analisi app competitor} \par
     \numberline{\fontsize{4mm}{1mm}\selectfont\textbf{1.2 Confronto con app simili}}
-    Analizzando le principali app di food delivery è emerso che: tutte posseggono sia un sito web che un'app per smartphone, ci permettono di geolocalizzare il nostro indirizzo e ci consigliano iristoranti.
+    Analizzando le principali app di food delivery è emerso che: tutte posseggono sia un sito web che un'app per smartphone, ci permettono di geolocalizzare il nostro indirizzo e ci consigliano i ristoranti.
     Abbiamo individuato le seguenti app competitor:
-\begin{itemize}
-        \item \textbf{App n1 - \href{https://www.justeat.it}{JustEat}:} Ha un’interfaccia intuitiva, con le categorie e la ricerca in primo piano, non permette però di visualizzare il nome e la foto del rider. Non è neanche possibile chattare con il rider e il ristorante.
+\begin{itemize}\item \textbf{App n1 - \href{https://www.justeat.it}{JustEat}:} Ha un’interfaccia intuitiva, con le categorie e la ricerca in primo piano, non permette però di visualizzare il nome e la foto del rider. Non è neanche possibile chattare con il rider e il ristorante.
 
         \item \textbf{App n2 - \href{https://glovoapp.com/it/it/}{Glovo}:} Interfaccia divisa in macrocategorie che ci offre servizi diversi dalla concorrenza, come inviare pacchi da un indirizzo all’altro o ordinare farmaci. É possibile visualizzare delle informazione sul rider come la posizione in tempo reale e chattare con lui. Offre anche la possibilità di accumulare credito sull’app invitando degli amici ad iscriversi. É possibile inoltre recensire il ristorante, l’ordine ricevuto e il rider che lo ha consegnato.
 
         \item \textbf{App n3 - \href{https://deliveroo.it/it/}{Deliveroo}:} Come JustEat ci offre in homepage le varie categorie, le promozioni in corso e la ricerca dei ristoranti. Ci permette di visualizzare info e posizione del rider ed è possibile recensire ristorante, ordine e rider come Glovo. La peculiarità di questa app è poter aggiungere alcuni ristoranti tra i preferiti e visualizzarli facilmente tramite un pulsante in homepage. Aprendo le categorie è possibile filtrare i ristoranti in base a regimi alimentari (Vegano, senza glutine, kosher ...).
 
-        \item \textbf{App n4 - \href{https://www.ubereats.com/it/}{UberEats}:} Schermata intuitiva ma con meno categorie presenti rispetto ai competitor. Offre la possibilità di visualizzare tutte le info e la posizione del rider e ci permette inoltre di recensire non solo il ristorante e il rider, ma anche singolarmente ogni prodotto dell’ordine che abbiamo fatto.
+        \item \textbf{App n4 - \href{https://www.ubereats.com/it/feed?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkxhJTIwUGFnbm90dGVsbGElMjBHb3VybWV0JTIwLSUyMFZpYWxlJTIwSXBwb2NyYXRlJTIwLSUyMFJvbWElMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjJDaElKVmREYVE2ZGhMeE1SbjI4Y1NxZG1nb0ElMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIyZ29vZ2xlX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDEuOTA4NzUlMkMlMjJsb25naXR1ZGUlMjIlM0ExMi41MjAzODg3JTdE}{UberEats}:} Schermata intuitiva ma con meno categorie presenti rispetto ai competitor. Offre la possibilità di visualizzare tutte le info e la posizione del rider e ci permette inoltre di recensire non solo il ristorante e il rider, ma anche singolarmente ogni prodotto dell’ordine che abbiamo fatto.
 
-\end{itemize}
-Abbiamo la conferma delle app competitor conosciute da parte degli utenti che hanno risposto al nostro form, nel seguente modo:
+\end{itemize}Abbiamo la conferma delle app competitor conosciute da parte degli utenti che hanno risposto al nostro form, nel seguente modo:
 \begin{center}
    \includegraphics[width=\textwidth]{Data/Grafici/App_competitor.png} 
 \end{center}
@@ -75,22 +70,21 @@ Abbiamo la conferma delle app competitor conosciute da parte degli utenti che ha
     \includegraphics[width=\textwidth]{Data/Grafici/App_competitor_utilizzate.png}
 \end{center}
 
-prova Zak
 
     \vspace{1cm}
 \section{Needfinding} 
-In questa fase di sviluppo l’obiettivo è comprendere le necessità degli utenti nella capire perchè è meglio utilizzare un'app.
+In questa fase di sviluppo l’obiettivo è comprendere le necessità degli utenti nella capire perché è meglio utilizzare un'app.
     \vspace{1cm}
     \addcontentsline{toc}{subsection}{\numberline{2.1}Interviste} \par
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1 Interviste}}
 \par Per le interviste abbiamo realizzato due versioni, composte rispettivamente da 5 e 6 domande, utilizzando la prima versione come pilota e con l'aiuto della versione 1 siamo riusciti a fare delle domande più complete. \par Le interviste sono state poste per lo più, a colleghi di università, amici, e colleghi di lavoro, per una durata media di 10 minuti.\par
-  \vspace{1cm}
-\addcontentsline{toc}{subsubsection}{\numberline{2.1.1}Domande}\par\numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1.1 Domande}}
+  \vspace{1cm}\addcontentsline{toc}{subsubsection}{\numberline{2.1.1}Domande}\par
+    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1.1 Domande}}
     \begin{enumerate}
     
      \item \textit{Ordini mai a domicilio?}
         \begin{enumerate}
-            \item Se no, perchè?
+            \item Se no, perché?
         \end{enumerate}
      \item \textit{Conoscete e avete mai utilizzato un'app di food delivery?}
      \begin{enumerate}
@@ -98,44 +92,42 @@ In questa fase di sviluppo l’obiettivo è comprendere le necessità degli uten
          \item Quanto spesso le usi?
      \end{enumerate}
      \item \textit{Quali funzionalità preferisci dell'app che utilizzi?}
-     \item \textit{Quali potrebbero essere delle funzionalità che ti potrebbero tornare utilizi ma che non sono implementate?}
+     \item \textit{Quali potrebbero essere delle funzionalità che ti potrebbero tornare utilizzi ma che non sono implementate?}
     \item \textit{Ti farebbe comodo conoscere i valori nutrizionali(calorie, proteine, carboidrati, grassi) delle pietanze che ordini?}
     \begin{enumerate}
         \item La troveresti utile se dovessi seguire una dieta?
     \end{enumerate}
-    \item \textit{Vista l'attuale situazione climatica globale, favoriresti un servizio di cosegna a domicilio completamente Green? Se si, perchè? }
+    \item \textit{Vista l'attuale situazione climatica globale, favoriresti un servizio di consegna a domicilio completamente Green? Se si, perché? }
     \begin{enumerate}
         \item Anche se questo dovesse comportare dei costi leggermente maggiori?
     \end{enumerate}
 \end{enumerate}
 
-    \vspace{1cm}
- 
-    \addcontentsline{toc}{subsection}{\numberline{2.2}Questionari} \par 
+    \vspace{1cm}\addcontentsline{toc}{subsection}{\numberline{2.2}Questionari} \par 
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.2 \href{https://forms.gle/LbzJgv2mBttKMyoz5}{Questionari}}}
 \par E' stato condotto un questionario che permette di raggiungere un numero di partecipanti decisamente maggiore,per confermare se i need individuati con le interviste sono corretti.\par Inoltre permette di visualizzare in modo più preciso le preferenze degli utenti tramite grafici significativi:
 \par \vspace{1cm}
-Sono state ottenute \textbf{158} risposte che andremo ad analizzare con l'aiuto dei grafici significati ottenuti su Google Moduli.\par 
+Sono state ottenute \textbf{158} risposte che andremo ad analizzare con l'aiuto dei grafici significati ottenuti su Google Moduli.
+\par 
 \includegraphics[width=\textwidth]{Data/Grafici/Perche_non_ordina.png}
-Come tematica non da sottovalutare, e il \textbf{perchè} molti utenti non utilizzano un servizio dedicato per le consegne a domicilio.\vspace{1cm}\par
+Come tematica non da sottovalutare, e il \textbf{perché} molti utenti non utilizzano un servizio dedicato per le consegne a domicilio.\vspace{1cm}\par
 \includegraphics[width=\textwidth]{Data/Grafici/ordinare_cibo.png}\par
-I nostri pensieri vengono confermati , perchè come possiamo notare una netta maggioranza preferisce ordinare cibo utilizzando un servizio dedicato, ben il 77,1\%.\par \vspace{1cm}
+I nostri pensieri vengono confermati , perché come possiamo notare una netta maggioranza preferisce ordinare cibo utilizzando un servizio dedicato, ben il 77,1\%.\par \vspace{1cm}
 \includegraphics[width=\textwidth]{Data/Grafici/Funzionalità_fondamentali.png}\par
 Dalle risposte ottenute individuiamo quali sono le funzionalità che saltano subito alla vista degli utenti:
 \par \begin{itemize}
     \item Tracciamento dell'ordine;
-    \item Abbinamenti cosigliati dal ristorante;
+    \item Abbinamenti consigliati dal ristorante;
     \item Chattare con il rider;
     \item Visualizzare gli sconti disponibili;
 \end{itemize}   \vspace{1cm} \par
 \includegraphics[width=\textwidth]{Data/Grafici/recensioni_influiscono.png}\par
 Questa domanda è nata dall'idea di voler inserire una recensione 
     \begin{itemize}
-        \item \textit{Per il ristorante}: di come gestisce l'ordine, se la cosegna viene effettuata in orario, e se il mantenimento del cibo e equo a quando si gusta nel ristorante.
+        \item \textit{Per il ristorante}: di come gestisce l'ordine, se la consegna viene effettuata in orario, e se il mantenimento del cibo e equo a quando si gusta nel ristorante.
         \item \textit{Per il piatto}: dare un voto al piatto che si ordina, se effettivamente rispetta le aspettative o se vengono completamente deluse.
     \end{itemize}
-    \par \vspace{1cm}
-\includegraphics[width=\textwidth]{Data/Grafici/Valori_nutrizionali.png}\par
+    \par \vspace{1cm}\includegraphics[width=\textwidth]{Data/Grafici/Valori_nutrizionali.png}\par
 Per quanto le risposte di questa domanda, non possiamo dire che c'è una conferma definitiva, perchè i pareri sono abbasta differenti, nonostate la maggioranza, ovvero il 33,6\% lo preferiscono. \par
 Inizialmente segnare i valori nutrizionali era un punto fondamentale del nostro servizio, ma a fine questionario e diventato più un punto secondario.\par \vspace{1cm}
 \includegraphics[width=\textwidth]{Data/Grafici/situazione_climatica.png}\par
@@ -159,65 +151,64 @@ Abbiamo riscontrato che la maggior parte degli utenti(\textit{oltre 72\%}) sareb
     \end{need}
 
     \vspace{1cm}
-
-
-
-
-    \vspace{4cm}
-
+ \vspace{4cm}
+\pagebreak
 \section{Storyboard} \par
 Le seguenti storyboard illustrano le principali task che sono state individuate:
 
+
 \begin{figure}[htpb]
 
-\begin{myminipage}{0.40\textwidth}
+\begin{minipage}{0.40\textwidth}
     \includegraphics[width=\textwidth]{Data/StoryBoard/Effetuare_ordine.png}
     \caption[Prima figura]{Effettuare un ordine} \label{fig:1}
-\end{myminipage}
+\end{minipage}
 \hspace{2cm}
-\begin{myminipage}{0.40\textwidth}
+\begin{minipage}{0.40\textwidth}
     \includegraphics[width = \textwidth]{Data/StoryBoard/risoluzione disguidi alla cosegna.png}
     \caption[Seconda figura]{Usufruire dei servizi per avere una consegna precisa}\label{fig:2}
-\end{myminipage}
-\begin{myminipage}{0.40\textwidth}
+\end{minipage}
+\begin{minipage}{0.40\textwidth}
     \includegraphics[width=\textwidth]{Data/StoryBoard/Recensione_ristorante.png}
     \caption[Terza figura]{Fornire valutazione ristorante e pietanza}\label{fig:3}
-\end{myminipage}
+\end{minipage}
 \hspace{2cm}
-\begin{myminipage}{0.40\textwidth}
+\begin{minipage}{0.40\textwidth}
     \includegraphics[width=\textwidth]{Data/StoryBoard/Filtro_calorie.jpeg}
     \caption[Quarta figura]{Usufruire del segna-calorie se si segue una dieta}\label{fig:4}
-\end{myminipage}
+\end{minipage}
 \end{figure}
 
-
-
-    
 \section{Prototipi}
     Ciascun task è stato testo da un gruppo di 8/10 persone e l'approccio al prototyping è stato di tipo evolutivo. Ad ogni iterazione,vengono proposte modifiche al fine di migliorare il prototipo e risolvere i problemi evidenziati nella versione precedente.\par
-\begin{myminipage}{0.40\textwidth}
+    
+\begin{minipage}{0.40\textwidth}
     \addcontentsline{toc}{subsection}{\numberline{4.1}Versione 1}     
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.1 Versione 1}}
-    %scrivere qui
+    %scrivere qui 
+    ciao
     \vspace{1cm}
     
     \addcontentsline{toc}{subsubsection}{\numberline{4.1.1}Versione 1 - Resoconto}
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.1.1 Versione 1 - Resoconto}}
     %scrivere qui
+    ciao
     \vspace{1cm}
-\end{myminipage}    
+\end{minipage}    
 \hspace{2cm}
-\begin{myminipage}{0.40\textwidth}
+\begin{minipage}{0.40\textwidth}
     \addcontentsline{toc}{subsection}{\numberline{4.2}Versione 2}               
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.2 Versione 2 }}
     %scrivere qui
+    ciao
     \vspace{1cm}
 
     \addcontentsline{toc}{subsubsection}{\numberline{4.2.1}Versione 2 - Resoconto}
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{4.2.1 Versione 2 - Resoconto}}
     %scrivere qui
+    ciao
     \vspace{1cm}
-\end{myminipage}
+\end{minipage}
 \section{UserTest}
 
 \vspace{1cm}
@@ -239,7 +230,6 @@ Le seguenti storyboard illustrano le principali task che sono state individuate:
 \section{Problemi riscontrati durante la realizzazione del progetto}
 
 \vspace{1cm}
-
 
 \section{Revisioni}
 Prendendo singolarmente le due revisioni effettuate durante il corso abbiamo riscontrato che:
@@ -266,15 +256,5 @@ Prendendo singolarmente le due revisioni effettuate durante il corso abbiamo ris
     
     \end{itemize}
 \end{minipage} 
-
-
-
-
-
-
-
-
-
-
 
 \end{document}
