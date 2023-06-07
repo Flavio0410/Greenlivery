@@ -7,8 +7,8 @@
 \tcbuselibrary{theorems}
 
 \newenvironment{myminipage}[1]{\minipage{#1} 
- \captionsetup{width=\textwidth, name=Fig., labelfont={it,bf}}
- }{\endminipage} 
+\captionsetup{width=\textwidth, name=Fig., labelfont={it,bf}}
+}{\endminipage} 
 
 \newtcbtheorem[no counter]{need}{Need}%
 { 
@@ -32,13 +32,13 @@
 \tableofcontents
 \newpage
 \section{Introduzione}\par
-Il topic del progetto dato dal docente è la realizzazione di un servizio legato a cibo e alimentazione. Con particolare aree di interessi,come: \par
+Il progetto assegnato dal docente riguarda la realizzazione di un servizio legato al cibo e all'alimentazione. Le aree di interesse principali includono: \par
 \begin{itemize}
-    \item \textbf{dieta}:gestione dieta per uno stile di vita sano, e.g., per motivi medici/altro, dieta per sportivi, gestione ricettari, diario della dieta \par
-    \item \textbf{green}:cambiamento abitudini alimentari, diminuzione di food-waste e risorse impiegate (e.g., per produrre carne), gestione smart di coltivazioni e allevamenti \par
-    \item \textbf{cultura}:tradizioni alimentari, prodotti tipici del territorio, percorsi enogastronomici, slowfood\par
-    \item \textbf{aggregazione/commercio}: ristoranti, bar, delivery della spesa o di piatti pronti \par
-    \item \textbf{tecnologia}: tele-dining (e.g., aperitivo da remoto), mukbang (guardare altri mangiare su YouTube), food printing, ... \par
+    \item \textbf{Dieta}: gestione della dieta per uno stile di vita sano, ad esempio per motivi medici o personali, dieta per sportivi, gestione di ricettari, diario alimentare.\par
+    \item \textbf{Green}: promozione di cambiamenti nelle abitudini alimentari per ridurre lo spreco di cibo e le risorse impiegate nella produzione, gestione intelligente di colture e allevamenti.\par
+    \item \textbf{Cultura}: valorizzazione delle tradizioni alimentari, dei prodotti tipici locali, percorsi enogastronomici, slow food.\par
+    \item \textbf{Aggregazione/Commercio}: servizi di ristorazione, bar, consegna della spesa o di pasti pronti.\par
+    \item \textbf{Tecnologia}:  tele-dining (ad esempio, aperitivi a distanza), mukbang (guardare altre persone mangiare su YouTube), stampa di cibo, ecc. \par
 \end{itemize}
 \vspace{1cm}
 
@@ -46,24 +46,27 @@ Il topic del progetto dato dal docente è la realizzazione di un servizio legato
 
     \addcontentsline{toc}{subsection}{\numberline{1.1}Argomento del progetto} \par
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{1.1 Argomento del progetto}}\vspace{0.5cm}
-    L'obiettivo del nostro progetto "Greenlivery" è sviluppare un'app di delivery che si concentra sulla sostenibilità e combattere il food waste. La nostra app offre la possibilità di ordinare cibo da ristoranti locali con consegne effettuate in modo eco-compatibile, contribuendo così a ridurre l'impatto ambientale delle consegne. Inoltre, siamo sensibili allo spreco alimentare rendendo soddisfatti sia i clienti che i ristoranti, i quali possono utilizzare la nostra app per ridurre il loro spreco alimentare, in modo da poter ridurre i costi e aumentare i profitti con la vendita di "Food Magic Box".
+    L'obiettivo del nostro progetto, denominato "Greenlivery", è sviluppare un'app di consegna che si concentra sulla sostenibilità e combatte lo spreco alimentare. La nostra app offre la possibilità di ordinare cibo da ristoranti locali con consegne effettuate in modo ecologicamente compatibile, contribuendo così a ridurre l'impatto ambientale delle consegne. Inoltre, siamo sensibili allo spreco alimentare e miriamo a soddisfare sia i clienti che i ristoratori. I ristoranti possono utilizzare la nostra app per ridurre lo spreco alimentare, offrendo ai clienti la possibilità di acquistare una "Food Magic Box", che consente loro di acquistare porzioni di cibo in eccesso a prezzi convenienti. In questo modo, i ristoranti possono ridurre i costi e aumentare i profitti. 
     \vspace{1cm}
     
     \addcontentsline{toc}{subsection}{\numberline{1.2}Analisi app competitor} \par
+    \newpage
     \numberline{\fontsize{4mm}{1mm}\selectfont\textbf{1.2 Confronto con app simili}}\vspace{0.5cm}
-    Analizzando le principali app di food delivery, è emerso che tutte posseggono sia un sito web che un'app per smartphone, ci permettono di geolocalizzare il nostro indirizzo e ci consigliano i ristoranti. Inoltre la user-experience è ottima su tutte quelle analizzate, offrono tutte un buon supporto clienti ed hanno tutte un'identità di brand definita. Per questo la nostra app dovrà avere tutte queste caratteristiche oltre alle novità che implementeremo. Tuttavia, analizzando singolarmente le peculiarità delle app, abbiamo notato che ognuna di esse ha dei punti di forza e dei punti deboli che le differenzia tra loro.
+    Analizzando le principali app di food delivery, è emerso che tutte posseggono sia un sito web che un'app per smartphone, ci permettono di geolocalizzare il nostro indirizzo e ci consigliano i ristoranti. Inoltre la user-experience è ottima su tutte quelle analizzate, offrono tutte un buon supporto clienti ed hanno tutte un'identità di brand definita. Per questo la nostra app dovrà avere tutte queste caratteristiche oltre alle novità che implementeremo. Tuttavia, analizzando singolarmente le peculiarità delle app, abbiamo notato che ognuna di esse ha dei punti di forza e dei punti deboli che le differenzia tra loro.\vspace{0,7cm}
 \begin{itemize}
-        \item \textbf{App n1 - \href{https://www.justeat.it}{JustEat}:} Ha un’interfaccia intuitiva, con le categorie e la ricerca in primo piano, non permette però di visualizzare il nome, la foto del rider. Non consente, inoltre, di chattare con esso o con il ristorante.
+        \item \textbf{App n1 - \href{https://www.justeat.it}{JustEat}:} Ha un’interfaccia intuitiva con le categorie e la ricerca in primo piano, non permette però di visualizzare il nome, la foto del rider. Non consente, inoltre, di chattare con esso o con il ristorante.\vspace{0.3cm}
 
-        \item \textbf{App n2 - \href{https://glovoapp.com/it/it/}{Glovo}:} Ha un'interfaccia divisa in macrocategorie che ci offre servizi concorrenziali, come inviare pacchi da un indirizzo all’altro o ordinare farmaci. É possibile visualizzare delle informazione sul rider come la posizione in tempo reale e parlarci tramite live chat. Offre anche la possibilità di accumulare credito sull’app invitando degli amici ad iscriversi. É possibile inoltre recensire il ristorante, l’ordine ricevuto e il rider che lo ha consegnato.
+        \item \textbf{App n2 - \href{https://glovoapp.com/it/it/}{Glovo}:} Ha un'interfaccia divisa in macrocategorie che ci offre servizi concorrenziali, come inviare pacchi da un indirizzo all’altro o ordinare farmaci. É possibile visualizzare delle informazione sul rider come la posizione in tempo reale e parlarci tramite live chat. Offre anche la possibilità di accumulare credito sull’app invitando degli amici ad iscriversi. É possibile inoltre recensire il ristorante, l’ordine ricevuto e il rider che lo ha consegnato.\vspace{0.3cm}
 
-        \item \textbf{App n3 - \href{https://deliveroo.it/it/}{Deliveroo}:} Come JustEat ci offre in homepage le varie categorie, le promozioni in corso e la ricerca dei ristoranti. Ci permette di visualizzare informazioni e posizione del rider ed ha un servizio di recensione come quello di Glovo. La peculiarità di questa app è poter aggiungere alcuni ristoranti tra i preferiti e visualizzarli facilmente tramite un pulsante in homepage. Aprendo le categorie è possibile filtrare i ristoranti in base a regimi alimentari (Vegano, senza glutine, kosher ...).
+        \item \textbf{App n3 - \href{https://deliveroo.it/it/}{Deliveroo}:} Come JustEat ci offre in homepage le varie categorie, le promozioni in corso e la ricerca dei ristoranti. Ci permette di visualizzare informazioni e posizione del rider ed ha un servizio di recensione come quello di Glovo. La peculiarità di questa app è poter aggiungere alcuni ristoranti tra i preferiti e visualizzarli facilmente tramite un pulsante in homepage. Aprendo le categorie è possibile filtrare i ristoranti in base a regimi alimentari (Vegano, senza glutine, kosher ...).\vspace{0.3cm}
 
-        \item \textbf{App n4 - \href{https://www.ubereats.com/it}{UberEats}:} Interfaccia intuitiva, ma con meno categorie rispetto ai concorrenti. Permette di visualizzare tutte le informazioni e la posizione del fattorino in tempo reale, consentendo di valutare non solo il ristorante e il fattorino, ma anche ogni singolo prodotto dell'ordine.
+        \item \textbf{App n4 - \href{https://www.ubereats.com/it}{UberEats}:} Interfaccia intuitiva, ma con meno categorie rispetto ai concorrenti. Permette di visualizzare tutte le informazioni e la posizione del fattorino in tempo reale, consentendo di valutare non solo il ristorante e il fattorino, ma anche ogni singolo prodotto dell'ordine.\vspace{0.3cm}
 
     
 
-\end{itemize}Abbiamo la conferma delle app competitor conosciute da parte degli utenti che hanno risposto al nostro form, nel seguente modo:
+\end{itemize}
+\newpage
+Abbiamo condotto un'analisi approfondita sulle quattro applicazioni che sono emerse come le più utilizzate tra gli utenti che hanno risposto al nostro questionario. Di seguito sono riportati i grafici che mostrano i risultati ottenuti.
 \begin{center}
     \includegraphics[width=\textwidth]{Data/Grafici/App_competitor.png} 
     \includegraphics[width=\textwidth]{Data/Grafici/App_competitor_utilizzate.png}
@@ -71,7 +74,7 @@ Il topic del progetto dato dal docente è la realizzazione di un servizio legato
 
 
 
-    \vspace{1cm}
+\newpage
 \section{Needfinding} 
 In questa fase di sviluppo l’obiettivo è comprendere le necessità degli utenti per capire le funzionalità da implementare nell’applicazione. Per farlo abbiamo utilizzato due metodi: il questionario e le interviste.
     \vspace{1cm}
@@ -119,7 +122,7 @@ Nella seconda versione abbiamo ottenuto \textbf{158} risposte che andremo ad ana
 \includegraphics[width=\textwidth]{Data/Grafici/Perche_non_ordina.png}
 \includegraphics[width=\textwidth]{Data/Grafici/ordinare_cibo.png}
 \par Abbiamo anche esaminato le risposte sulle percentuali dei mezzi di consegna per comprendere quanti utenti utilizzano le app per il food delivery.\par \vspace{1cm}
-\includegraphics[width=\textwidth]{Data/Grafici/Funzionalità_fondamentali.png}\par
+\includegraphics[width=\textwidth]{Data/Grafici/Funzionalità_fondamentali.png}\par \newpage
 In base alle risposte raccolte, identifichiamo quali sono le caratteristiche che catturano immediatamente l'attenzione degli utenti.
 \par \begin{itemize}
     \item Tracciamento dell'ordine;
