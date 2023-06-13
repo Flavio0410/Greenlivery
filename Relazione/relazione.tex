@@ -4,6 +4,7 @@
 \usepackage{caption}
 \usepackage{hyperref}
 \usepackage{tcolorbox}
+\usepackage{xcolor}
 \tcbuselibrary{theorems}
 
 \newenvironment{myminipage}[1]{\minipage{#1} 
@@ -77,11 +78,10 @@ Abbiamo condotto un'analisi approfondita sulle quattro applicazioni che sono eme
 \newpage
 \section{Needfinding} 
 In questa fase di sviluppo l’obiettivo è comprendere le necessità degli utenti per capire le funzionalità da implementare nell’applicazione. Per farlo abbiamo utilizzato due metodi: il questionario e le interviste.
-    \vspace{1cm}
-    \addcontentsline{toc}{subsection}{\numberline{2.1}Interviste} \par
+    \vspace{1cm}\addcontentsline{toc}{subsection}{\numberline{2.1}Interviste} \par
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1 Interviste}}\vspace{0.5cm}
-\par Abbiamo creato due versioni delle interviste. Dopo aver somministrato la prima versione agli intervistati, abbiamo individuato i problemi e abbiamo elaborato la seconda versione con domande più chiare e comprensibili. \par Le interviste sono state poste per lo più a colleghi di università, amici e colleghi di lavoro per una durata media di 7 minuti.\par
-\par Il file con le interviste è disponibile \textbf{\href{https://wind-blob-6b0.notion.site/Interviste-de02a85b8b634f7687534d2064010b4a}{a questo sito}.}\par
+        \par Abbiamo creato due versioni delle interviste. Dopo aver somministrato la prima versione agli intervistati, abbiamo individuato i problemi e abbiamo elaborato la seconda versione con domande più chiare e comprensibili. \par Le interviste sono state poste per lo più a colleghi di università, amici e colleghi di lavoro per una durata media di 7 minuti.\par
+        \par Il file con le interviste è disponibile \textbf{\href{https://wind-blob-6b0.notion.site/Interviste-de02a85b8b634f7687534d2064010b4a}{a questo sito}.}\par
     \vspace{1cm}\addcontentsline{toc}{subsubsection}{\numberline{2.1.1}Domande}\par
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1.1 Domande}}\vspace{0.5cm}
     \begin{enumerate}
@@ -90,27 +90,104 @@ In questa fase di sviluppo l’obiettivo è comprendere le necessità degli uten
         \begin{enumerate}
             \item Se no, perché?
         \end{enumerate}
+        \begin{tcolorbox}[
+            colframe=green,  % Colore del contorno del riquadro
+            colback=white,  % Colore di sfondo del riquadro
+            sharp corners,  % Angoli affilati
+            boxrule=0.5pt,  % Spessore del contorno
+            left=5pt,  % Distanza sinistra del testo dal riquadro
+            right=5pt,  % Distanza destra del testo dal riquadro
+            top=5pt,  % Distanza superiore del testo dal riquadro
+            bottom=5pt  % Distanza inferiore del testo dal riquadro
+        ]
+        Attraverso questa domanda, possiamo valutare se l'intervistato potrebbe rappresentare un potenziale utente della nostra applicazione. Siamo consapevoli del fatto che molte delle principali applicazioni concorrenti non sono in grado di fornire copertura in determinate aree o città. Nel caso in cui l'intervistato non abbia mai effettuato ordini di cibo a domicilio, vorremmo gentilmente chiedergli le ragioni di questa scelta.
+        \end{tcolorbox}
+    \newpage
     \item \textit{Conoscete e avete mai utilizzato un'app di food delivery?}
-    \begin{enumerate}
-        \item Quali?
-        \item Quanto spesso le usi?
-    \end{enumerate}
+        \begin{enumerate}
+            \item Quali?
+            \item Quanto spesso le usi?
+        \end{enumerate}
+        \begin{tcolorbox}[
+            colframe=green,  % Colore del contorno del riquadro
+            colback=white,  % Colore di sfondo del riquadro
+            sharp corners,  % Angoli affilati
+            boxrule=0.5pt,  % Spessore del contorno
+            left=5pt,  % Distanza sinistra del testo dal riquadro
+            right=5pt,  % Distanza destra del testo dal riquadro
+            top=5pt,  % Distanza superiore del testo dal riquadro
+            bottom=5pt  % Distanza inferiore del testo dal riquadro
+        ]
+        Abbiamo adottato l'approccio di sondare gli intervistati per valutare la loro familiarità e l'utilizzo delle applicazioni di food delivery. Questa strategia ci consente di ottenere una comprensione più accurata del livello di utilizzo e conoscenza di tali servizi, nonché di gestire in modo più efficiente le domande durante le interviste, evitando di porre quesiti a cui gli intervistati non sarebbero in grado di rispondere. Nel caso di risposte affermative, abbiamo inoltre approfondito la frequenza con cui effettuano ordini e le preferenze in termini di applicazioni specifiche.
+        \end{tcolorbox}
     \item \textit{Quali funzionalità preferisci dell'app che utilizzi?}
+        \begin{tcolorbox}[
+            colframe=green,  % Colore del contorno del riquadro
+            colback=white,  % Colore di sfondo del riquadro
+            sharp corners,  % Angoli affilati
+            boxrule=0.5pt,  % Spessore del contorno
+            left=5pt,  % Distanza sinistra del testo dal riquadro
+            right=5pt,  % Distanza destra del testo dal riquadro
+            top=5pt,  % Distanza superiore del testo dal riquadro
+            bottom=5pt  % Distanza inferiore del testo dal riquadro
+        ]
+        Questa domanda è rivolta agli utenti che hanno già utilizzato almeno una volta le applicazioni di food delivery. La finalità è analizzare le funzionalità che sono state particolarmente apprezzate dagli utenti, al fine di poterle integrare nella nostra stessa applicazione.
+        \end{tcolorbox}
     \item \textit{Quali potrebbero essere delle funzionalità che ti potrebbero tornare utilizzi ma che non sono implementate?}
+        \begin{tcolorbox}[
+            colframe=green,  % Colore del contorno del riquadro
+            colback=white,  % Colore di sfondo del riquadro
+            sharp corners,  % Angoli affilati
+            boxrule=0.5pt,  % Spessore del contorno
+            left=5pt,  % Distanza sinistra del testo dal riquadro
+            right=5pt,  % Distanza destra del testo dal riquadro
+            top=5pt,  % Distanza superiore del testo dal riquadro
+            bottom=5pt  % Distanza inferiore del testo dal riquadro
+        ]
+        La presente domanda mira a raggiungere gli stessi obiettivi della precedente, ma si concentra sulla comprensione degli interessi degli utenti e sulla scoperta di funzionalità che non sono attualmente disponibili nelle applicazioni concorrenti.
+        \end{tcolorbox}
     \item \textit{Ti farebbe comodo conoscere i valori nutrizionali(calorie, proteine, carboidrati, grassi) delle pietanze che ordini?}
-    \begin{enumerate}
-        \item La troveresti utile se dovessi seguire una dieta?
-    \end{enumerate}
+        \begin{enumerate}
+            \item La troveresti utile se dovessi seguire una dieta?
+        \end{enumerate}
+        \begin{tcolorbox}[
+            colframe=green,  % Colore del contorno del riquadro
+            colback=white,  % Colore di sfondo del riquadro
+            sharp corners,  % Angoli affilati
+            boxrule=0.5pt,  % Spessore del contorno
+            left=5pt,  % Distanza sinistra del testo dal riquadro
+            right=5pt,  % Distanza destra del testo dal riquadro
+            top=5pt,  % Distanza superiore del testo dal riquadro
+            bottom=5pt  % Distanza inferiore del testo dal riquadro
+        ]
+        Attraverso questa domanda, abbiamo cercato di valutare l'interesse degli utenti per i principali valori nutrizionali di ogni piatto, anche considerando coloro che seguono particolari regimi alimentari o diete.
+        \end{tcolorbox}
+    \newpage
     \item \textit{Vista l'attuale situazione climatica globale, favoriresti un servizio di consegna a domicilio completamente Green? Se si, perché? }
-    \begin{enumerate}
-        \item Anche se questo dovesse comportare dei costi leggermente maggiori?
-    \end{enumerate}
+        \begin{enumerate}
+            \item Anche se questo dovesse comportare dei costi leggermente maggiori?
+        \end{enumerate}
+        \begin{tcolorbox}[
+            colframe=green,  % Colore del contorno del riquadro
+            colback=white,  % Colore di sfondo del riquadro
+            sharp corners,  % Angoli affilati
+            boxrule=0.5pt,  % Spessore del contorno
+            left=5pt,  % Distanza sinistra del testo dal riquadro
+            right=5pt,  % Distanza destra del testo dal riquadro
+            top=5pt,  % Distanza superiore del testo dal riquadro
+            bottom=5pt  % Distanza inferiore del testo dal riquadro
+        ]
+        Attraverso questa domanda, abbiamo cercato di valutare l'interesse degli utenti per i principali valori nutrizionali di ogni piatto, anche considerando coloro che seguono particolari regimi alimentari o diete.
+        \end{tcolorbox}
 \end{enumerate}
+\vspace{1cm}\addcontentsline{toc}{subsubsection}{\numberline{2.1.2}Resoconto interviste}\par
+\numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1.2 Resoconto interviste}}\vspace{0.5cm}
+    \par Le interviste hanno dimostrato di essere estremamente utili, poiché ci hanno consentito di comprendere l'ampia diffusione delle applicazioni di food delivery, specialmente tra i giovani che sono stati il principale gruppo intervistato. Queste interviste ci hanno permesso di identificare le funzionalità più apprezzate dagli utenti, che abbiamo successivamente integrato nella nostra applicazione. Inoltre, ci hanno fornito preziose informazioni riguardo a funzionalità ancora assenti in altre app ma che risultano di interesse per gli intervistati. Attraverso le interviste, abbiamo riscontrato che il tema dell'ecosostenibilità, rappresentato ad esempio dalle consegne "green", è ben accolto dagli intervistati. Inoltre, abbiamo notato che l'inclusione dei valori nutrizionali per ciascun pasto nell'applicazione è un'opzione gradita dalla maggioranza degli intervistati, a condizione che non comporti costi aggiuntivi.\par
 
 
-
-    \vspace{2cm}\addcontentsline{toc}{subsection}{\numberline{2.2}Questionari} \par 
-    \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.2 Questionari}}\vspace{0.5cm}
+\newpage
+\vspace{2cm}\addcontentsline{toc}{subsection}{\numberline{2.2}Questionari} \par 
+\numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.2 Questionari}}\vspace{0.5cm}
 \par Abbiamo condotto un questionario che permette di raggiungere un numero di partecipanti decisamente maggiore rispetto alle interviste, per confermare se i need emersi sono verificati.\par Il questionario con Google Form consente anche di visualizzare in modo più preciso le preferenze degli utenti tramite grafici significativi.
 \par La versione 1 del questionario è disponibile \textbf{\href{https://forms.gle/pBWCBfAxsjULCZRj6}{a questo sito}.}
 \par La versione 2 del questionario è disponibile \textbf{\href{https://docs.google.com/forms/d/1ToAwRVi9a8q0_68hbEI7O8ORtodt_uTHuwU9ZtPfk1Q/edit}{a questo sito}.}
@@ -209,5 +286,18 @@ Il link per visualizzare tutti gli User Test è disponibile \textbf{\href{https:
 Il link per visualizzarlo è disponibile \textbf{\href{https://www.notion.so/Expert-Evaluation-7bc49cae89414742a51b71f6faebecdd}{qui }.}
 
 \vspace{1cm}
+
+\newpage
+\section{Fattibilità} \par\vspace{0.5cm}
+\par Abbiamo analizzato la fattibilità del progetto e abbiamo scoperto che è possibile realizzarlo. Abbiamo individuato i seguenti punti: \par
+\begin{enumerate}
+    \item GPS - Utile per localizzare l’utente e fornire i ristoranti nelle vicinanze e per visualizzare lo stato di consegna in tempo reale. Questo è possibile tramite il servizio di geolocalizzazione integrato nello smartphone.
+    \item Database - Per immagazzinare i dati di login degli utenti, i ristoranti e tutti i prodotti. È facilmente implementabile e gestibile tramite un comune DBMS.
+    \item Server - Per gestire le connessioni tra i client e l’applicazione, per gestire la messaggistica istantanea tra utente e ristorante/help center/rider.
+    \item Algoritmo - Per mostrare nella homepage i ristoranti più vicini all’utente in maniera ordinata e calcolare i prodotti più venduti di ogni ristorante partner ed inserirli nella categoria popolari.
+    \item Sviluppare l’applicazione in linguaggio Swift essendo stata ideata per dispositivi IOS.
+    \item Utilizzare un servizio di call center per fornire assistenza ai clienti.
+\end{enumerate}
+
 
 \end{document}
