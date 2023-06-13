@@ -55,7 +55,7 @@ Il progetto assegnato dal docente riguarda la realizzazione di un servizio legat
     \numberline{\fontsize{4mm}{1mm}\selectfont\textbf{1.2 Confronto con app simili}}\vspace{0.5cm}
     Analizzando le principali app di food delivery, è emerso che tutte posseggono sia un sito web che un'app per smartphone, ci permettono di geolocalizzare il nostro indirizzo e ci consigliano i ristoranti. Inoltre la user-experience è ottima su tutte quelle analizzate, offrono tutte un buon supporto clienti ed hanno tutte un'identità di brand definita. Per questo la nostra app dovrà avere tutte queste caratteristiche oltre alle novità che implementeremo. Tuttavia, analizzando singolarmente le peculiarità delle app, abbiamo notato che ognuna di esse ha dei punti di forza e dei punti deboli che le differenzia tra loro.\vspace{0,7cm}
 \begin{itemize}
-        \item \textbf{App n1 - \href{https://www.justeat.it}{JustEat}:} Ha un’interfaccia intuitiva con le categorie e la ricerca in primo piano, non permette però di visualizzare il nome, la foto del rider. Non consente, inoltre, di chattare con esso o con il ristorante.\vspace{0.3cm}
+        \item \textbf{App n1 - \href{https://www.justeat.it}{JustEat}:} Ha un’interfaccia intuitiva con le categorie e la ricerca in primo piano, non permette però di visualizzare il nome e la foto del rider. Non consente, inoltre, di chattare con esso o con il ristorante.\vspace{0.3cm}
 
         \item \textbf{App n2 - \href{https://glovoapp.com/it/it/}{Glovo}:} Ha un'interfaccia divisa in macrocategorie che ci offre servizi concorrenziali, come inviare pacchi da un indirizzo all’altro o ordinare farmaci. É possibile visualizzare delle informazione sul rider come la posizione in tempo reale e parlarci tramite live chat. Offre anche la possibilità di accumulare credito sull’app invitando degli amici ad iscriversi. É possibile inoltre recensire il ristorante, l’ordine ricevuto e il rider che lo ha consegnato.\vspace{0.3cm}
 
@@ -80,8 +80,10 @@ Abbiamo condotto un'analisi approfondita sulle quattro applicazioni che sono eme
 In questa fase di sviluppo l’obiettivo è comprendere le necessità degli utenti per capire le funzionalità da implementare nell’applicazione. Per farlo abbiamo utilizzato due metodi: il questionario e le interviste.
     \vspace{1cm}\addcontentsline{toc}{subsection}{\numberline{2.1}Interviste} \par
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1 Interviste}}\vspace{0.5cm}
-        \par Abbiamo creato due versioni delle interviste. Dopo aver somministrato la prima versione agli intervistati, abbiamo individuato i problemi e abbiamo elaborato la seconda versione con domande più chiare e comprensibili. \par Le interviste sono state poste per lo più a colleghi di università, amici e colleghi di lavoro per una durata media di 7 minuti.\par
-        \par Il file con le interviste è disponibile \textbf{\href{https://wind-blob-6b0.notion.site/Interviste-de02a85b8b634f7687534d2064010b4a}{a questo sito}.}\par
+        \par Sono state sviluppate due varianti delle interviste al fine di ottimizzare il processo di raccolta dati. In seguito alla somministrazione della prima versione ai partecipanti, sono stati rilevati alcuni punti critici che hanno richiesto un'ulteriore rifinitura. Pertanto, è stata elaborata una seconda versione caratterizzata da domande più chiare e facilmente comprensibili.
+
+        Le interviste sono state condotte principalmente a individui appartenenti alla cerchia accademica, tra colleghi universitari, amici e collaboratori professionali. La durata media di ciascuna intervista è stata di circa 7 minuti.\par
+        \par Il file con entrambe le versioni è disponibile \textbf{\href{https://wind-blob-6b0.notion.site/Interviste-de02a85b8b634f7687534d2064010b4a}{qui}.}\par
     \vspace{1cm}\addcontentsline{toc}{subsubsection}{\numberline{2.1.1}Domande}\par
     \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.1.1 Domande}}\vspace{0.5cm}
     \begin{enumerate}
@@ -100,7 +102,7 @@ In questa fase di sviluppo l’obiettivo è comprendere le necessità degli uten
             top=5pt,  % Distanza superiore del testo dal riquadro
             bottom=5pt  % Distanza inferiore del testo dal riquadro
         ]
-        Attraverso questa domanda, possiamo valutare se l'intervistato potrebbe rappresentare un potenziale utente della nostra applicazione. Siamo consapevoli del fatto che molte delle principali applicazioni concorrenti non sono in grado di fornire copertura in determinate aree o città. Nel caso in cui l'intervistato non abbia mai effettuato ordini di cibo a domicilio, vorremmo gentilmente chiedergli le ragioni di questa scelta.
+        Attraverso questa domanda, possiamo valutare se l'intervistato potrebbe rappresentare un potenziale utente della nostra applicazione. Siamo consapevoli del fatto che molte delle principali applicazioni concorrenti non sono in grado di fornire copertura in determinate aree o città. Nel caso in cui l'intervistato non abbia mai effettuato ordini di cibo a domicilio, chiederemo le ragioni di questa scelta.
         \end{tcolorbox}
     \newpage
     \item \textit{Conoscete e avete mai utilizzato un'app di food delivery?}
@@ -118,7 +120,7 @@ In questa fase di sviluppo l’obiettivo è comprendere le necessità degli uten
             top=5pt,  % Distanza superiore del testo dal riquadro
             bottom=5pt  % Distanza inferiore del testo dal riquadro
         ]
-        Abbiamo adottato l'approccio di sondare gli intervistati per valutare la loro familiarità e l'utilizzo delle applicazioni di food delivery. Questa strategia ci consente di ottenere una comprensione più accurata del livello di utilizzo e conoscenza di tali servizi, nonché di gestire in modo più efficiente le domande durante le interviste, evitando di porre quesiti a cui gli intervistati non sarebbero in grado di rispondere. Nel caso di risposte affermative, abbiamo inoltre approfondito la frequenza con cui effettuano ordini e le preferenze in termini di applicazioni specifiche.
+        Abbiamo adottato l'approccio di sondare gli intervistati per valutare la loro familiarità all'utilizzo delle applicazioni di food delivery. Questa strategia ci consente di ottenere una comprensione più accurata del livello di utilizzo e conoscenza di tali servizi, nonché di gestire in modo più efficiente le domande durante le interviste, evitando di porre quesiti a cui gli intervistati non sarebbero in grado di rispondere. Nel caso di risposte affermative, abbiamo inoltre approfondito la frequenza con cui effettuano ordini e le preferenze in termini di applicazioni specifiche.
         \end{tcolorbox}
     \item \textit{Quali funzionalità preferisci dell'app che utilizzi?}
         \begin{tcolorbox}[
@@ -133,7 +135,7 @@ In questa fase di sviluppo l’obiettivo è comprendere le necessità degli uten
         ]
         Questa domanda è rivolta agli utenti che hanno già utilizzato almeno una volta le applicazioni di food delivery. La finalità è analizzare le funzionalità che sono state particolarmente apprezzate dagli utenti, al fine di poterle integrare nella nostra stessa applicazione.
         \end{tcolorbox}
-    \item \textit{Quali potrebbero essere delle funzionalità che ti potrebbero tornare utilizzi ma che non sono implementate?}
+    \item \textit{Quali potrebbero essere delle funzionalità che ti potrebbero tornare utili ma che non sono implementate?}
         \begin{tcolorbox}[
             colframe=green,  % Colore del contorno del riquadro
             colback=white,  % Colore di sfondo del riquadro
@@ -177,7 +179,8 @@ In questa fase di sviluppo l’obiettivo è comprendere le necessità degli uten
             top=5pt,  % Distanza superiore del testo dal riquadro
             bottom=5pt  % Distanza inferiore del testo dal riquadro
         ]
-        Attraverso questa domanda, abbiamo cercato di valutare l'interesse degli utenti per i principali valori nutrizionali di ogni piatto, anche considerando coloro che seguono particolari regimi alimentari o diete.
+        Con il seguente quesito abbiamo cercato di comprendere l'interesse degli utenti per un servizio di consegna a domicilio che utilizza mezzi di trasporto ecologici, anche se questo dovesse comportare dei costi maggiori.
+
         \end{tcolorbox}
 \end{enumerate}
 \vspace{1cm}\addcontentsline{toc}{subsubsection}{\numberline{2.1.2}Resoconto interviste}\par
@@ -189,11 +192,11 @@ In questa fase di sviluppo l’obiettivo è comprendere le necessità degli uten
 \vspace{2cm}\addcontentsline{toc}{subsection}{\numberline{2.2}Questionari} \par 
 \numberline{\fontsize{4mm}{1mm}\selectfont \textbf{2.2 Questionari}}\vspace{0.5cm}
 \par Abbiamo condotto un questionario che permette di raggiungere un numero di partecipanti decisamente maggiore rispetto alle interviste, per confermare se i need emersi sono verificati.\par Il questionario con Google Form consente anche di visualizzare in modo più preciso le preferenze degli utenti tramite grafici significativi.
-\par La versione 1 del questionario è disponibile \textbf{\href{https://forms.gle/pBWCBfAxsjULCZRj6}{a questo sito}.}
-\par La versione 2 del questionario è disponibile \textbf{\href{https://docs.google.com/forms/d/1ToAwRVi9a8q0_68hbEI7O8ORtodt_uTHuwU9ZtPfk1Q/edit}{a questo sito}.}
+\par La versione 1 del questionario è disponibile \textbf{\href{https://forms.gle/pBWCBfAxsjULCZRj6}{su questo sito}.}
+\par La versione 2 del questionario è disponibile \textbf{\href{https://docs.google.com/forms/d/1ToAwRVi9a8q0_68hbEI7O8ORtodt_uTHuwU9ZtPfk1Q/edit}{su questo sito}.}
 \par \vspace{1cm}
 Nella seconda versione abbiamo ottenuto \textbf{158} risposte che andremo ad analizzare con l'aiuto dei grafici visualizzati su Google Moduli.\par \vspace{1cm}
-\par Dopo aver constatato che solo l'11\% non ha mai effettuato un ordine, abbiamo indagato sul motivo per comprendere se fosse possibile fornire un servizio che li spingesse a ordinare cibo a domicilio.
+\par Dopo aver constatato che solo l'11\% non ha mai effettuato un ordine, abbiamo indagato sul motivo, per comprendere se fosse possibile fornire un servizio che li spingesse a ordinare cibo a domicilio.
 \vspace{0.5cm}
 \par 
 \includegraphics[width=\textwidth]{Data/Grafici/Perche_non_ordina.png}
@@ -224,7 +227,7 @@ Abbiamo scoperto che uno degli intervistati aveva l'idea di implentare le food m
         \item Risoluzione eventuali disguidi alla consegna.
         \item Combattere lo spreco alimentare.
         \item Visualizzazione in tempo reale della posizione del Rider.
-        \item Avere la possibilità di recensire sia il ristorante, sia la pietanza singola.
+        \item Avere la possibilità di recensire sia il ristorante che la singola pietanza.
         \item Avere a disposizione tutti i principali metodi di pagamento.
         \item Avere a disposizione un filtro per i \textit{valori nutrizionli} .
     \end{enumerate}
@@ -291,10 +294,10 @@ Il link per visualizzarlo è disponibile \textbf{\href{https://www.notion.so/Exp
 \section{Fattibilità} \par\vspace{0.5cm}
 \par Abbiamo analizzato la fattibilità del progetto e abbiamo scoperto che è possibile realizzarlo. Abbiamo individuato i seguenti punti: \par
 \begin{enumerate}
-    \item GPS - Utile per localizzare l’utente e fornire i ristoranti nelle vicinanze e per visualizzare lo stato di consegna in tempo reale. Questo è possibile tramite il servizio di geolocalizzazione integrato nello smartphone.
+    \item GPS - Utile per localizzare l’utente e fornire i ristoranti nelle vicinanze e visualizzare lo stato di consegna in tempo reale. Questo è possibile tramite il servizio di geolocalizzazione integrato nello smartphone.
     \item Database - Per immagazzinare i dati di login degli utenti, i ristoranti e tutti i prodotti. È facilmente implementabile e gestibile tramite un comune DBMS.
     \item Server - Per gestire le connessioni tra i client e l’applicazione, per gestire la messaggistica istantanea tra utente e ristorante/help center/rider.
-    \item Algoritmo - Per mostrare nella homepage i ristoranti più vicini all’utente in maniera ordinata e calcolare i prodotti più venduti di ogni ristorante partner ed inserirli nella categoria popolari.
+    \item Algoritmo - Per mostrare nella homepage i ristoranti più vicini all’utente in maniera ordinata e calcolare i prodotti più venduti di ogni ristorante partner così da inserirli nella categoria 'popolari'.
     \item Sviluppare l’applicazione in linguaggio Swift essendo stata ideata per dispositivi IOS.
     \item Utilizzare un servizio di call center per fornire assistenza ai clienti.
 \end{enumerate}
